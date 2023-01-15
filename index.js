@@ -1,11 +1,8 @@
-const app = require("./app");
-//console.log(app.z());  // call variables & function from another file
+const http = require("http");
 
-/******Array ****/
-const arr = [2, 4, 2, 3, 6, 8];
-let cnt = 0;
-var result = arr.filter((i) => {
-  return i === 3;
-});
-//console.log(result);
-/******Array end****/
+http
+  .createServer((req, resp) => {
+    resp.write("<h1>hello</h1>");
+    resp.end();
+  })
+  .listen(1106); // createServer take function as a parameter
