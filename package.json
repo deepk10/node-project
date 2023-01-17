@@ -1,0 +1,24 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "Node Project Initial file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepk10/node-project.git"
+  },
+  "keywords": [
+    "deepak",
+    "node",
+    "tutorial"
+  ],
+  "author": "Deepak Tyagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepk10/node-project/issues"
+  },
+  "homepage": "https://github.com/deepk10/node-project#readme"
+}
