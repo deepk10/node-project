@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/deepk10/node-project/issues"
   },
-  "homepage": "https://github.com/deepk10/node-project#readme"
+  "homepage": "https://github.com/deepk10/node-project#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "color": "^4.2.3"
+  }
 }
