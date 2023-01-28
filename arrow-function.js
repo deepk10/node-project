@@ -5,3 +5,5 @@ const arrFnc = (req, resp) => {
   resp.end();
 };
 http.createServer(arrFnc).listen(1106);
+
+const arrFnc2 = (a) => a * 10;
